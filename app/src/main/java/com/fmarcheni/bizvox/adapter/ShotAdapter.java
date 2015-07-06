@@ -38,10 +38,14 @@ public class ShotAdapter extends RecyclerView.Adapter<ShotAdapter.ShotViewHolder
         void onRecyclerViewElementClicked(View view, int position, Shot element);
     }
     public void addOShots(List<Shot> shots) {
-        this.shots.addAll(shots);
+        for (Shot s : shots) {
+            if (!this.shots.contains(s))
+                this.shots.add(s);
+        }
         super.notifyDataSetChanged();
     }
-    public void setOShots(List<Shot> shots) {
+
+    public void setShots(List<Shot> shots) {
         this.shots = shots;
         super.notifyDataSetChanged();
     }

@@ -66,7 +66,7 @@ public class MainFragment extends Fragment implements OnRefreshListener, ShotAda
                 int lastFirstVisiblePosition = ((LinearLayoutManager) recyclerView.getLayoutManager()).findLastCompletelyVisibleItemPosition();
                 lastKnowPosition= lastFirstVisiblePosition;
                     if (totalItemCount > 1 && (lastFirstVisiblePosition >= totalItemCount - 1)) {
-                            int nextPage = (totalItemCount /12)+1;
+                        int nextPage = (totalItemCount / 30) + 1;
                         EventBus.getDefault().post(nextPage);
                     }
             }
