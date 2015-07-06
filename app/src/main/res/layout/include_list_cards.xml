@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/list_item_card_views_count" />
+
+    <include layout="@layout/list_item_card_comment_count" />
+
+    <include layout="@layout/list_item_card_created_at" />
+    <include layout="@layout/list_item_card_description" />
+
+
+
+
+
+
+</LinearLayout>

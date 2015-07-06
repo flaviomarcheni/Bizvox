@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="azul_base">#0072C6</color>
+    <color name="verde_base">#007711</color>
+    <color name="vermelho_base">#FF0000</color>
+    <color name="amarelo_base">#FFFF00</color>
+    <color name="cinza_base_card_1">#f1f1f2</color>
+    <color name="cinza_base_card_2">#e3e4e6</color>
+    <color name="cinza_base_card_3">#d5d7d9</color>
+    <color name="cinza_base_card_4">#c7cacd</color>
+    <color name="cinza_base_card_5">#b9bdc1</color>
+    <color name="cinza_base_card_6">#abb0b4</color>
+    <color name="azul_overlay">#660072C6</color>
+    <color name="cinza_base">#747c83</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay_plus">#AA000000</color>
+    <color name="white_overlay">#AAFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="azul_escuro_1">#293eb2</color>
+    <color name="azul_escuro_2">#231b74</color>
+    <color name="vermelho_escuro">#4b1b11</color>
+    <color name="azul_base_1">#d2d7f5</color>
+    <color name="creme_base">#ECDA9D</color>
+    <color name="creme_5">#f0e2b2</color>
+    <color name="creme_1">#f8f2dd</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="window_background">#FFF5F5F5</color>
+    <color name="blue">#303F9F</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_teal">#009688</color>
+    <color name="purple">#673AB7</color>
+    <color name="red">#F44336</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="lime">#CDDC39</color>
+    <color name="accent_color">@color/blue</color>
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorAccent">@color/green</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="statusBarColor">@color/blue</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+</resources>

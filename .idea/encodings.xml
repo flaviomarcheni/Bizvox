@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/DetailActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/entity/Image.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/entity/Shot.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/fragment/MainFragment.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/util/InternetUtil.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/fmarcheni/bizvox/util/Load.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout-v11/componente_load.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/include_list_cards.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/include_main_activity.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_comment_count.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_created_at.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_description.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_small.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_title.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/list_item_card_views_count.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

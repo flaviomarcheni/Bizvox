@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@+id/cv"
+                                    xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    app:cardBackgroundColor="@android:color/white"
+                                    app:cardCornerRadius="2dp"
+                                    app:cardElevation="@dimen/card_elevation"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/shot_photo_small"
+            android:layout_width="match_parent"
+
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            />
+            <TextView
+                android:id="@+id/tittle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:selectableItemBackground"
+                android:fontFamily="sans-serif"
+                android:textColor="#333"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/views_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tittle"
+                android:layout_toRightOf="@+id/shot_photo_small"
+                android:fontFamily="sans-serif"
+                android:text="xs"
+                android:textColor="#333"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:id="@+id/created_at"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/views_count"
+                android:layout_toRightOf="@+id/shot_photo_small"
+                android:fontFamily="sans-serif"
+                android:text="xs"
+                android:textColor="#333"
+                android:textSize="18sp"
+                />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
